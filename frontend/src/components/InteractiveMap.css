@@ -1,0 +1,46 @@
+.interactive-map-section {
+  text-align: center;
+  padding: 6rem 2rem;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--card-background);
+}
+
+.interactive-map-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin-bottom: 1rem;
+}
+
+.interactive-map-section p {
+  color: var(--gray-medium);
+  margin-bottom: 3rem;
+}
+
+.idea-map-container {
+  height: 400px;
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  background-color: #000;
+}
+
+.add-idea-button {
+  background-color: var(--accent);
+  color: var(--background);
+  border: 1px solid var(--accent);
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.add-idea-button:hover {
+  background-color: var(--background);
+  color: var(--accent);
+  border-color: var(--accent);
+}

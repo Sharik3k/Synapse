@@ -1,0 +1,182 @@
+/* Hero Section */
+/* Hero Section */
+.hero-section {
+  position: relative; /* For z-index stacking */
+  text-align: center;
+  padding: 8rem 2rem;
+  z-index: 1;
+}
+
+.hero-badge {
+  display: inline-block;
+  border: 1px solid var(--border-color);
+  border-radius: 9999px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+  color: var(--gray-medium);
+  margin-bottom: 1.5rem;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.05em;
+  color: var(--foreground);
+  margin: 0;
+}
+
+.hero-title-black {
+  color: var(--foreground);
+}
+
+.hero-subtitle {
+  max-width: 600px;
+  margin: 1.5rem auto 2.5rem;
+  color: var(--gray-medium);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero-cta {
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid;
+}
+
+.hero-cta.primary {
+  background-color: var(--accent);
+  color: var(--background);
+  border-color: var(--accent);
+}
+
+.hero-cta.secondary {
+  background-color: transparent;
+  color: var(--foreground);
+  border-color: var(--border-color);
+}
+
+/* Features Section */
+.features-section {
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin-bottom: 1rem;
+}
+
+.features-subtitle {
+  color: var(--gray-medium);
+  margin-bottom: 4rem;
+  font-size: 1.1rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: left;
+}
+
+.feature-icon {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: var(--background);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+  color: var(--gray-medium);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.cta-section {
+  max-width: 1200px;
+  margin: 6rem auto;
+  padding: 4rem;
+  background-color: var(--card-background);
+  color: var(--foreground);
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.cta-section p {
+  color: var(--gray-medium);
+  margin-bottom: 2.5rem;
+}
+
+.cta-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cta-btn {
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid;
+}
+
+.cta-btn.primary {
+  background-color: var(--accent);
+  color: var(--background);
+  border-color: var(--accent);
+}
+
+.cta-btn.secondary {
+  background-color: transparent;
+  color: var(--foreground);
+  border-color: var(--border-color);
+}
+
+
+
